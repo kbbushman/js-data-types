@@ -10,21 +10,28 @@
  * Create an array of image sources. Use image1.png, image2.png, and image3.png as the array values.
  */
 
-// Your code here
+var imageArray = ["image1.png", "image2.png", "image3.png"];
+var q1 = imageArray;
+
+console.log("Question 1:" + ' ' +  q1)
 
 /**
  * Question 2
  * Using the array from Question 1, store the first element of the array in variable q2.
  */
 
-// Your code here
+var q2 = imageArray[0];
+
+console.log("Question 2:" + ' ' + q2)
 
 /**
  * Question 3
  * Get the length of the first array (number of elements in the array) and store it in variable q3
  */
 
-// Your code here
+var q3 = imageArray.length;
+
+console.log("Question 3:" + ' ' + q3)
 
 /**
  * Question 4
@@ -32,7 +39,9 @@
  */
 
 
-// Your code here
+var q4 = imageArray[imageArray.length -1];
+
+console.log("Question 4:" + ' ' + q4)
 
 
 // ____________________________________________________________________________
@@ -47,7 +56,19 @@
 The end result should be an array of numbers with values 2,3,4,5
  */
 
-// Your code here
+var q5 = [];
+
+increaseEachByOne = function() {
+	var numbersArray = [ 1, 2, 3, 4, 5 ];
+
+
+	for (var i = 0; i < numbersArray.length; i++) {
+		q5.push(numbersArray[i] + 1);
+	}
+
+	console.log("Question 5:" + ' ' + q5)
+}
+
 
 
 /**
